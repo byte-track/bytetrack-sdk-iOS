@@ -1,3 +1,3 @@
 # bytetrack-sdk-iOS
 ByteTrack中messager在ios的sdk
-说明dev
+dev中修改了该文档
