@@ -26,7 +26,7 @@ pod repo update
 
 &nbsp;&nbsp;1，将所需的bytetrack.framework拷贝或者拖拽到工程所在文件夹下，左侧目录选中工程名，在Build Phases-> Link Binary With Libaries中点击“+”按钮，在弹出的窗口中点击“Add Other”按钮，选择bytetrack.framework添加到工程中，如下图：
 
-![](http://gitlab.byteslink.com/vuepress/picgo/-/raw/master/pictures/2022/09/2_14_27_49_FCDF2382-9AB2-4E3A-B1A2-AD652B39D424.png)
+![](https://github.com/byte-track/bytetrack-sdk-iOS/blob/dev_0.1.0/pictures/FCDF2382-9AB2-4E3A-B1A2-AD652B39D424.png)
 
 &nbsp;&nbsp;如果Build Phases-> Link Binary With Libaries里面已经自动引入了bytetrack.framework，则忽略此步。  
 
@@ -34,11 +34,11 @@ pod repo update
     - 选中工程名，在右键菜单中选择Add Files to “工程名”…
     - 从bytetrack.framework文件中选择Bytetrack.bundle文件，并勾选“Copy items if needed”复选框，单击“Add”按钮，将资源文件添加到工程中，添加后的效果如下：
 
-![](http://gitlab.byteslink.com/vuepress/picgo/-/raw/master/pictures/2022/09/2_14_28_15_72A0D769-3C13-488E-86BF-EA8BB19CC03E.png)
+![](https://github.com/byte-track/bytetrack-sdk-iOS/blob/dev_0.1.0/pictures/72A0D769-3C13-488E-86BF-EA8BB19CC03E.png)
 
 &nbsp;&nbsp;3，在TARGETS->Build Settings->Other Linker Flags （选中ALL视图）中添加-ObjC，字母O和C大写，符号“-”请勿忽略，如下图：
 
-![](http://gitlab.byteslink.com/vuepress/picgo/-/raw/master/pictures/2022/09/2_14_28_36_EEBBBE2E-DC6A-4A56-8F66-94082C9F407F.png)
+![](https://github.com/byte-track/bytetrack-sdk-iOS/blob/dev_0.1.0/pictures/EEBBBE2E-DC6A-4A56-8F66-94082C9F407F.png)
 
 
 &nbsp;&nbsp;**注意：** 不管你的工程是swift项目还是Object C项目，对于自动配置或者手动配置，Object C 和 Swift导入SDK的方式一致。区别是swift项目需要创建桥接头文件，在该文件中 `#import <Bytetrack/BytesTrack.h>` 即可使用。
@@ -51,7 +51,7 @@ pod repo update
 
 &nbsp;&nbsp;由于该SDK使用到了相册和相机，所以需要申请权限，在info.plist文件中添加**Privacy - Photo Library Usage Description**和**Privacy - Camera Usage Description**两项并添加相应的描述，如下图：
 
-![](http://gitlab.byteslink.com/vuepress/picgo/-/raw/master/pictures/2022/09/2_14_28_55_AD1FCDF6-AC3B-492E-BE74-2AB6E1915B61.png)
+![](https://github.com/byte-track/bytetrack-sdk-iOS/blob/dev_0.1.0/pictures/AD1FCDF6-AC3B-492E-BE74-2AB6E1915B61.png)
 
 <br/>
 
