@@ -1,7 +1,7 @@
 # ByteTrack-SDK-IOS 的接入方式
 ## 1. 使用CocoaPods 安装 SDK （推荐）
  &nbsp;&nbsp;在您项目工程（.xcodeproj）文件同目录下打开Podfile文件，添加pod 'bytetrack'命令，如下：
- ![](http://gitlab.byteslink.com/vuepress/picgo/-/raw/master/pictures/2022/09/2_14_27_23_8BBA5441-1485-473C-8087-DBD6895CA584.png)
+ ![](https://github.com/byte-track/bytetrack-sdk-iOS/blob/dev_0.1.0/pictures/podPic.png)
  
  &nbsp;&nbsp;执行安装命令
  ```
