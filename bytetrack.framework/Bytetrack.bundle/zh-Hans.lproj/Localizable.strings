@@ -78,3 +78,5 @@
 "UTrackerMJRefreshHeaderLastTimeText" = "最后更新：";
 "UTrackerMJRefreshHeaderDateTodayText" = "今天";
 "UTrackerMJRefreshHeaderNoneLastDateText" = "无记录";
+"大写文章"="文章";
+"当前版本暂不支持该条消息类型，请升级到最新版本查看!!!" = "[当前版本暂不支持该条消息类型，请升级到最新版本查看!!!]";
