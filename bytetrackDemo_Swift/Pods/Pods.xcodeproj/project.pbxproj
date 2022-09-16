@@ -302,14 +302,13 @@
 			};
 			name = Release;
 		};
-		6B8980AC488CDC9D7DDD1BDA49CED004 /* Release */ = {
+		25074DFA81EF267EAB5A090BA4ECF096 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 21BA4BD8FA66FA5AD697763EE2CEB135 /* bytetrack.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -419,23 +418,6 @@
 			};
 			name = Release;
 		};
-		A427725704DFB164188886FA58368464 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F2BB013EF39E8969B90AD740A13FE11F /* bytetrack.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -502,14 +484,30 @@
 			};
 			name = Debug;
 		};
+		D7B16341E412F520572B9E7D8E14F00B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2BB013EF39E8969B90AD740A13FE11F /* bytetrack.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		448B238B84985724E1AF3428EB142392 /* Build configuration list for PBXAggregateTarget "bytetrack" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A427725704DFB164188886FA58368464 /* Debug */,
-				6B8980AC488CDC9D7DDD1BDA49CED004 /* Release */,
+				D7B16341E412F520572B9E7D8E14F00B /* Debug */,
+				25074DFA81EF267EAB5A090BA4ECF096 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

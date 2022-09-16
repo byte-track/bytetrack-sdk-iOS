@@ -1,5 +1,5 @@
 PODS:
-  - bytetrack (0.1.0)
+  - bytetrack (1.0.0)
 
 DEPENDENCIES:
   - bytetrack
@@ -9,7 +9,7 @@ SPEC REPOS:
     - bytetrack
 
 SPEC CHECKSUMS:
-  bytetrack: 9402c32416ffd44df670ef24582441b48f166b8d
+  bytetrack: fa2c4e691f4b5176afc1b5d90534d5fa2ab2427a
 
 PODFILE CHECKSUM: c6ae72d638c883ad6ba234a86ca235db203c52c8
 

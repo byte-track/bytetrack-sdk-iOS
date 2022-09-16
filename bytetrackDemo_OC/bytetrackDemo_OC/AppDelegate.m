@@ -9,11 +9,16 @@
 #import <Bytetrack/Bytetrack.h>
 @interface AppDelegate ()
 
-//#define apiKey @"ios_sdkf5e72c54fc174b6fab266273076afe89"
-//#define appId @"178"
 
-#define apiKey @"ios_sdk14a681cecf684484bcf9e4072c20823a"
-#define appId @"168"
+/**
+ 此处要替换为你在bytetrack后台申请的真实apiKey和appId
+ */
+
+#define apiKey @"YOUR API KEY"
+#define appId  @"YOUR APP ID"
+
+
+
 @end
 
 @implementation AppDelegate
@@ -23,7 +28,7 @@
     
     [Bytetrack initMessengerWithApiKey:apiKey forAppId:appId];//初始化SDK
     [Bytetrack setLanguage:1];//设置语言
-    [Bytetrack setLauncherVisible:YES];//设置图标可见
+    [Bytetrack setLauncherVisible:YES];//显示悬浮图标，默认不显示
     NSString*verison= [Bytetrack getSDKVersion];
     
     NSLog(@"此SDK版本号是--%@",verison);
