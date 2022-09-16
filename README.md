@@ -40,6 +40,11 @@ pod repo update
 
 ![](https://github.com/byte-track/bytetrack-sdk-iOS/blob/dev_0.1.0/pictures/EEBBBE2E-DC6A-4A56-8F66-94082C9F407F.png)
 
+&nbsp;&nbsp;4，在PROJECT>Info->Localizations 中添加中文简体语言，否则在打开相册时，显示的相册名称可能是英文，如下图：
+
+![](https://github.com/byte-track/bytetrack-sdk-iOS/blob/dev_0.1.0/pictures/L1VzZXJzL3N1bmxpYW5nL0xpYnJhcnkvQ29udGFpbmVycy81WlNMMkNKVTJULmNvbS5kaW5ndGFsay5tYWMvRGF0YS9MaWJyYXJ5L0FwcGxpY2F0aW9uIFN1cHBvcnQvRGluZ1RhbGtNYWMvMjYxMTA3NTY1X3YyL0ltYWdlRmlsZXMvMTY2MzMwODM5OTcxM182RkE5Q0Y3NS03Q0JBLTRENzEtQjI1MC0zNTYzMzM3RDU1M0IucG5n.png)
+
+
 
 &nbsp;&nbsp;**注意：** 不管你的工程是swift项目还是Object C项目，对于自动配置或者手动配置，Object C 和 Swift导入SDK的方式一致。区别是swift项目需要创建桥接头文件，在该文件中 `#import <Bytetrack/BytesTrack.h>` 即可使用。
 <br/>
@@ -78,7 +83,7 @@ pod repo update
 
 
 # 技术支持
-&nbsp;&nbsp;除此之前，我们通过[使用指南](https://www.yuque.com/books/share/ad2cd6ce-faee-4c99-b6cb-4dc44564952e/fmyt4m)，为您提供了更加详细的使用说明。
+&nbsp;&nbsp;除此之外，我们通过[使用指南](https://www.yuque.com/books/share/ad2cd6ce-faee-4c99-b6cb-4dc44564952e/fmyt4m)，为您提供了更加详细的使用说明。
 
 &nbsp;&nbsp;如果您遇到使用问题，或者你想咨询有经验的开发者，可以加入我们的技术交流群：
 - QQ交流群：530947468
