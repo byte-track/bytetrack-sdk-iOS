@@ -7,8 +7,16 @@
 
 import UIKit
 import CoreData
-let apiKey:String = "ios_sdkf5e72c54fc174b6fab266273076afe89"
-let appId:String = "178"
+
+/**
+ 此处要替换为你在bytetrack后台申请的真实apiKey和appId
+ */
+
+let apiKey:String = "YOUR API KE"
+let appId:String = "YOUR APP ID"
+
+
+
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -21,7 +29,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         Bytetrack.initMessenger(withApiKey: apiKey, forAppId: appId)//初始化SDK
         Bytetrack.setLanguage(1)//设置语言
-        
+        Bytetrack.setLauncherVisible(true)//显示悬浮图标，默认不显示
         return true
     }
 
