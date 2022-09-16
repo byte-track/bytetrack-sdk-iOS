@@ -9,8 +9,11 @@
 #import <Bytetrack/Bytetrack.h>
 @interface AppDelegate ()
 
-#define apiKey @"ios_sdkf5e72c54fc174b6fab266273076afe89"
-#define appId @"178"
+//#define apiKey @"ios_sdkf5e72c54fc174b6fab266273076afe89"
+//#define appId @"178"
+
+#define apiKey @"ios_sdk14a681cecf684484bcf9e4072c20823a"
+#define appId @"168"
 @end
 
 @implementation AppDelegate
