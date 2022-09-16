@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "bytetrack"
-  spec.version      = "0.1.0"
+  spec.version      = "1.0.0"
   spec.summary      = "bytetrack系统SDK"
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -50,7 +50,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.author             = { "ByteLink" => "zijiehulian@126.com" }
-  spec.platform     = :ios, "11.0"
+  spec.platform     = :ios, "9.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -105,7 +105,7 @@ Pod::Spec.new do |spec|
     spec.framework  = "UIKit", "Foundation"#SDK依赖的系统库文件
     spec.source_files  = "bytetrack.framework/**/*.{h}"
     spec.ios.vendored_frameworks = 'bytetrack.framework'#SDK相对本文件路径
-    spec.resources  = "bytetrack.framework/bytetrack.bundle"
+    spec.resources  = "bytetrack.framework/Bytetrack.bundle"
 
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
@@ -121,7 +121,7 @@ Pod::Spec.new do |spec|
   
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
 
-    spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'armv7s armv7 arm64'}#支持架构配置
+    spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'armv7 i386 x86_64 arm64'}#支持架构配置
 
     #spec.dependency "Protobuf", "~> 3.13.0"#依赖的第三方库1
   
