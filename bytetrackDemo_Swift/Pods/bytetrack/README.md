@@ -1,8 +1,7 @@
 # ByteTrack-SDK-IOS 的接入方式
 ## 1. 使用CocoaPods 安装 SDK （推荐）
  &nbsp;&nbsp;在您项目工程（.xcodeproj）文件同目录下打开Podfile文件，添加pod 'bytetrack'命令，如下：
- ![](https://github.com/byte-track/bytetrack-sdk-iOS/blob/dev_0.1.0/pictures/podPic.png)
-
+ ![](https://github.com/byte-track/picture/blob/master/pictures/podPic.png)
  
  &nbsp;&nbsp;执行安装命令
  ```
@@ -27,7 +26,7 @@ pod repo update
 
 &nbsp;&nbsp;1，将所需的bytetrack.framework拷贝或者拖拽到工程所在文件夹下，左侧目录选中工程名，在Build Phases-> Link Binary With Libaries中点击“+”按钮，在弹出的窗口中点击“Add Other”按钮，选择bytetrack.framework添加到工程中，如下图：
 
-![](https://github.com/byte-track/bytetrack-sdk-iOS/blob/dev_0.1.0/pictures/FCDF2382-9AB2-4E3A-B1A2-AD652B39D424.png)
+![](https://github.com/byte-track/picture/blob/master/pictures/FCDF2382-9AB2-4E3A-B1A2-AD652B39D424.png)
 
 &nbsp;&nbsp;如果Build Phases-> Link Binary With Libaries里面已经自动引入了bytetrack.framework，则忽略此步。  
 
@@ -35,11 +34,16 @@ pod repo update
     - 选中工程名，在右键菜单中选择Add Files to “工程名”…
     - 从bytetrack.framework文件中选择Bytetrack.bundle文件，并勾选“Copy items if needed”复选框，单击“Add”按钮，将资源文件添加到工程中，添加后的效果如下：
 
-![](https://github.com/byte-track/bytetrack-sdk-iOS/blob/dev_0.1.0/pictures/72A0D769-3C13-488E-86BF-EA8BB19CC03E.png)
+![](https://github.com/byte-track/picture/blob/master/pictures/72A0D769-3C13-488E-86BF-EA8BB19CC03E.png)
 
 &nbsp;&nbsp;3，在TARGETS->Build Settings->Other Linker Flags （选中ALL视图）中添加-ObjC，字母O和C大写，符号“-”请勿忽略，如下图：
 
-![](https://github.com/byte-track/bytetrack-sdk-iOS/blob/dev_0.1.0/pictures/EEBBBE2E-DC6A-4A56-8F66-94082C9F407F.png)
+![](https://github.com/byte-track/picture/blob/master/pictures/EEBBBE2E-DC6A-4A56-8F66-94082C9F407F.png)
+
+&nbsp;&nbsp;4，在PROJECT>Info->Localizations 中添加中文简体语言，否则在打开相册时，显示的相册名称可能是英文，如下图：
+
+![](https://github.com/byte-track/picture/blob/master/pictures/L1VzZXJzL3N1bmxpYW5nL0xpYnJhcnkvQ29udGFpbmVycy81WlNMMkNKVTJULmNvbS5kaW5ndGFsay5tYWMvRGF0YS9MaWJyYXJ5L0FwcGxpY2F0aW9uIFN1cHBvcnQvRGluZ1RhbGtNYWMvMjYxMTA3NTY1X3YyL0ltYWdlRmlsZXMvMTY2MzMwODM5OTcxM182RkE5Q0Y3NS03Q0JBLTRENzEtQjI1MC0zNTYzMzM3RDU1M0IucG5n.png)
+
 
 
 &nbsp;&nbsp;**注意：** 不管你的工程是swift项目还是Object C项目，对于自动配置或者手动配置，Object C 和 Swift导入SDK的方式一致。区别是swift项目需要创建桥接头文件，在该文件中 `#import <Bytetrack/BytesTrack.h>` 即可使用。
@@ -52,7 +56,7 @@ pod repo update
 
 &nbsp;&nbsp;由于该SDK使用到了相册和相机，所以需要申请权限，在info.plist文件中添加**Privacy - Photo Library Usage Description**和**Privacy - Camera Usage Description**两项并添加相应的描述，如下图：
 
-![](https://github.com/byte-track/bytetrack-sdk-iOS/blob/dev_0.1.0/pictures/AD1FCDF6-AC3B-492E-BE74-2AB6E1915B61.png)
+![](https://github.com/byte-track/picture/blob/master/pictures/AD1FCDF6-AC3B-492E-BE74-2AB6E1915B61.png)
 
 <br/>
 
@@ -79,9 +83,8 @@ pod repo update
 
 
 # 技术支持
-&nbsp;&nbsp;除此之前，我们通过[使用指南](https://www.yuque.com/books/share/ad2cd6ce-faee-4c99-b6cb-4dc44564952e/fmyt4m)，为您提供了更加详细的使用说明。
+&nbsp;&nbsp;除此之外，我们通过[使用指南](https://www.yuque.com/books/share/ad2cd6ce-faee-4c99-b6cb-4dc44564952e/fmyt4m)，为您提供了更加详细的使用说明。
 
 &nbsp;&nbsp;如果您遇到使用问题，或者你想咨询有经验的开发者，可以加入我们的技术交流群：
 - QQ交流群：530947468
-
 

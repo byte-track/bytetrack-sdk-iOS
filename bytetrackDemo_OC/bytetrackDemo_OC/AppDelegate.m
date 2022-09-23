@@ -14,7 +14,7 @@
  此处要替换为你在bytetrack后台申请的真实apiKey和appId
  */
 
-#define apiKey @"YOUR API KEY"
+#define apiKey @"YOUR API KE"
 #define appId  @"YOUR APP ID"
 
 
@@ -26,6 +26,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
+   
     [Bytetrack initMessengerWithApiKey:apiKey forAppId:appId];//初始化SDK
     [Bytetrack setLanguage:1];//设置语言
     [Bytetrack setLauncherVisible:YES];//显示悬浮图标，默认不显示

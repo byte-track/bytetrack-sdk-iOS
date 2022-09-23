@@ -20,13 +20,19 @@
     [openBtn setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
     [openBtn addTarget:self action:@selector(openClick) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:openBtn];
+ 
     // Do any additional setup after loading the view.
 }
 
 //MARK: 打开信使
 -(void)openClick{
     
-    [Bytetrack presentMessenger];
+   [Bytetrack presentMessenger];
 }
+
+
+ 
+
+
 
 @end
