@@ -1,16 +1,16 @@
 PODS:
-  - bytetrack (1.0.1)
+  - bytetrack (1.1.0)
 
 DEPENDENCIES:
-  - bytetrack (~> 1.0.1)
+  - bytetrack
 
 SPEC REPOS:
   trunk:
     - bytetrack
 
 SPEC CHECKSUMS:
-  bytetrack: c6a13b361f21e7059cdb2aba018f46a4d1471b1f
+  bytetrack: 5d159c94cee3883269cb36659370a6da176e5941
 
-PODFILE CHECKSUM: 6f02d60a215716672523994440a88b5cd2612057
+PODFILE CHECKSUM: 61267e4b37cd38839fa235647b128f5302e5d3e2
 
 COCOAPODS: 1.11.2

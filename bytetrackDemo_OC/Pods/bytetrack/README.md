@@ -81,6 +81,20 @@ pod repo update
 <br/>
 <br/>
 
+# 常见问题
+## 1. 聊天页面键盘出现异常，页面偏移
+&nbsp;&nbsp;检查 App 中是否用到了会影响全局的键盘处理，如果是这种情况，需要做屏蔽。典型的比如第三方键盘库IQKeyboardManager，请全局添加以下屏蔽代码
+ ```
+[[IQKeyboardManager sharedManager].disabledDistanceHandlingClasses addObject:NSClassFromString(@"UTrackerChatController")];
+[[IQKeyboardManager sharedManager].disabledToolbarClasses addObject:NSClassFromString(@"UTrackerChatController")];
+[[IQKeyboardManager sharedManager].disabledTouchResignedClasses addObject:NSClassFromString(@"UTrackerChatController")];
+```
+或者在调用SDK之前设置
+```
+[[IQKeyboardManager sharedManager] setEnable:NO];
+[[IQKeyboardManager sharedManager] setEnableAutoToolbar:NO];
+[[IQKeyboardManager sharedManager] setShouldResignOnTouchOutside:NO];
+```
 
 # 技术支持
 &nbsp;&nbsp;除此之外，我们通过[使用指南](https://www.yuque.com/books/share/ad2cd6ce-faee-4c99-b6cb-4dc44564952e/fmyt4m)，为您提供了更加详细的使用说明。
