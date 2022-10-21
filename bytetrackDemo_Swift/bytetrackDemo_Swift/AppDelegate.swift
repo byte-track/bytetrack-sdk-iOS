@@ -12,7 +12,7 @@ import CoreData
  此处要替换为你在bytetrack后台申请的真实apiKey和appId
  */
 
-let apiKey:String = "YOUR API KE"
+let apiKey:String = "YOUR API KEY"
 let appId:String = "YOUR APP ID"
 
 

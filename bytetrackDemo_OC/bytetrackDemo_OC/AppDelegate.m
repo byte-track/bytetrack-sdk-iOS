@@ -14,7 +14,7 @@
  此处要替换为你在bytetrack后台申请的真实apiKey和appId
  */
 
-#define apiKey @"YOUR API KE"
+#define apiKey @"YOUR API KEY"
 #define appId  @"YOUR APP ID"
 
 

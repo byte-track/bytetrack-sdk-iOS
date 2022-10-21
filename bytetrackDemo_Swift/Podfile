@@ -4,5 +4,5 @@ target 'bytetrackDemo_Swift' do
 inhibit_all_warnings!
 #swift 项目中通过 pod引入第三方必须加上 use_frameworks！
 use_frameworks!
-pod 'bytetrack', '~> 1.0.1'
+pod 'bytetrack'
 end
