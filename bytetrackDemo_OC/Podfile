@@ -1,5 +1,4 @@
 platform :ios,’9.0’
 target 'bytetrackDemo_OC’ do
 pod 'bytetrack'
-
 end
