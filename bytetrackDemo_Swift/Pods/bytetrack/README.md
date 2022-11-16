@@ -69,14 +69,14 @@ pod repo update
  ```
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    [Bytetrack initMessengerWithApiKey:<Your iOS API Key> forAppId:<Your App ID>];//初始化SDK
+    [Bytetrack initMessengerWithApiKey:<Your iOS API Key> forAppId:<Your App ID> withPrivateServerURL:<Your ServerURL>];//初始化SDK
 
     return YES;
 }
 ```
 - `Your App ID:`表示您的商户在ByTeTrack系统中的应用ID；
 - `Your iOS API Key:`表示您的商户在ByteTrack系统中的应用密钥；
-
+- `Your ServerURL:`选填，私有化部署地址，如果您不是私有化部署，请填nil；
 **tips:** 此时，您就可以正常使用ByteTrack的功能。
 <br/>
 <br/>

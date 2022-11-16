@@ -27,7 +27,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
    
-    [Bytetrack initMessengerWithApiKey:apiKey forAppId:appId];//初始化SDK
+    [Bytetrack initMessengerWithApiKey:apiKey forAppId:appId withPrivateServerURL:nil];//初始化SDK
     [Bytetrack setLanguage:1];//设置语言
     [Bytetrack setLauncherVisible:YES];//显示悬浮图标，默认不显示
     NSString*verison= [Bytetrack getSDKVersion];

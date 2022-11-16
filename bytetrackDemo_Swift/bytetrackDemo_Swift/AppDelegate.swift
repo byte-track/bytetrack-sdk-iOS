@@ -27,7 +27,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        Bytetrack.initMessenger(withApiKey: apiKey, forAppId: appId)//初始化SDK
+        Bytetrack.initMessenger(withApiKey: apiKey, forAppId: appId, withPrivateServerURL: nil)//初始化SDK
         Bytetrack.setLanguage(1)//设置语言
         Bytetrack.setLauncherVisible(true)//显示悬浮图标，默认不显示
         return true
