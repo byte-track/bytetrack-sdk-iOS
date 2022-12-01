@@ -30,6 +30,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         Bytetrack.initMessenger(withApiKey: apiKey, forAppId: appId, withPrivateServerURL: nil)//初始化SDK
         Bytetrack.setLanguage(1)//设置语言
         Bytetrack.setLauncherVisible(true)//显示悬浮图标，默认不显示
+        NSLog("此SDK版本号是--%@", Bytetrack .getSDKVersion())
         return true
     }
 
