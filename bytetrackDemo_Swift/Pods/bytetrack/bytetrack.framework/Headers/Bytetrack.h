@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import <UIKit/UIKit.h>
 NS_ASSUME_NONNULL_BEGIN
 
 @interface Bytetrack : NSObject
@@ -33,7 +33,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)registerUserAttributes:(nonnull NSArray<NSDictionary*>*)userAttributes;
 
 /// 设置信使语言
-/// @param languageType 语言种类  1:zh-Hans  2:en 3:zh-Hant 4:ja ，不设置则默认手机系统语言，若手机系统语言超出信使端支持的语言库，则默认中文。目前版本只支持中文和英文。
+/// @param languageType 语言种类  1:zh-Hans  2:en  ，不设置则默认手机系统语言，若手机系统语言超出SDK支持的语言库，则默认中文。目前SDK版本只支持中文和英文。
 
 +(void)setLanguage:(int)languageType;
 
@@ -49,6 +49,17 @@ NS_ASSUME_NONNULL_BEGIN
 //获取SDK版本号
 +(NSString*)getSDKVersion;
 
+//打开通知中心
++ (void)presentNotificationCenter;
+
+//通知中心未读消息数量
++ (NSUInteger)unreadNotificationCenterMessageCount;
+
+//通知消息点击后的回调
++ (void)notificationCenterMessageEventCompletion:(void(^ __nullable)(NSDictionary * _Nullable params,NSError *_Nullable error))completion;
+
+//设置消息在指定页面弹窗，一般设置为程序主页，不设置则默认APP的启动页面弹窗
++(void)setPopViewController:(NSString*)viewControllerName;
 
 @end
 
