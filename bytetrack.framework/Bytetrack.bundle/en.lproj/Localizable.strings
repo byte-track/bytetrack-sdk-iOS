@@ -139,4 +139,12 @@
 "查看更多" = "See more";
 "当前版本暂不支持该条消息类型，请升级到最新版本查看!!!" = "【The current version does not support this message type, please upgrade to the latest version to check!!】";
 "大写文章"="Article";
+"探索" = "Explore";
+"查看详情" = "View details";
+"通知中心" = "Notification Center";
+"各类提醒、通知、公告等消息等您亲启" = "All kinds of reminders, notices, announcements and other information are waiting for you";
+"确定设置为全部已读?" = "Sure to set to all read?";
+"清除未读消息成功" = "Clear the unread message successfully";
+"我知道了" = "I know";
+"清除成功" = "Clearing succeeded";
 
