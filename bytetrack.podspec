@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "bytetrack"
-  spec.version      = "1.3.2"
+  spec.version      = "1.3.3"
   spec.summary      = "bytetrack系统SDK"
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -49,7 +49,7 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "ByteLink" => "zijiehulian@126.com" }
+  spec.author             = { "ByteLink" => "finn.skyer.summer@gmail.com" }
   spec.platform     = :ios, "9.0"
 
   #  When using multiple platforms
