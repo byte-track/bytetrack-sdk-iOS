@@ -97,6 +97,6 @@ pod repo update
 # 技术支持
 &nbsp;&nbsp;除此之外，我们通过[使用指南](https://www.yuque.com/books/share/ad2cd6ce-faee-4c99-b6cb-4dc44564952e/fmyt4m)，为您提供了更加详细的使用说明。
 
-&nbsp;&nbsp;如果您遇到使用问题，或者你想咨询有经验的开发者，可以加入我们的技术交流群：
+&nbsp;&nbsp;如果您遇到了使用问题，或者你想咨询有经验的开发者，可以加入我们的技术交流群：
 - QQ交流群：530947468
 

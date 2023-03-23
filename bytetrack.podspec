@@ -124,6 +124,6 @@ Pod::Spec.new do |spec|
    spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'armv7 i386 x86_64 arm64'}#支持架构配置
 
     #spec.dependency "Protobuf", "~> 3.13.0"#依赖的第三方库
-   spec.dependency "YYText"
+   #spec.dependency "YYText"
    #s.user_target_xcconfig = {'OTHER_LDFLAGS' => '-ObjC'} #声明加载源代码文件的 Objective-C 类
 end

@@ -8,12 +8,11 @@
 import UIKit
 import CoreData
 
-/**
- 此处要替换为你在bytetrack后台申请的真实apiKey和appId
- */
 
-let apiKey:String = "YOUR API KEY"
-let appId:String = "YOUR APP ID"
+#warning("此处要替换为你在bytetrack后台申请的真实apiKey和appId")
+
+let apiKey:String = "YOUR API KEY"//appkey
+let appId:String = "YOUR APP ID"  //appId
 
 
 

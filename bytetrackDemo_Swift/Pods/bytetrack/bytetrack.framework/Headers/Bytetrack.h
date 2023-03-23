@@ -10,6 +10,8 @@
 #import <UIKit/UIKit.h>
 NS_ASSUME_NONNULL_BEGIN
 
+//Bytetrack
+
 @interface Bytetrack : NSObject
 
 /// 初始化信使SDK
@@ -36,6 +38,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param languageType 语言种类  1:zh-Hans  2:en  ，不设置则默认手机系统语言，若手机系统语言超出SDK支持的语言库，则默认中文。目前SDK版本只支持中文和英文。
 
 +(void)setLanguage:(int)languageType;
+
+//设置收到消息时是否有音效提醒,默认YES
++(void)setSoundsEnable:(BOOL)enable;
 
 //打开信使
 +(void)presentMessenger;

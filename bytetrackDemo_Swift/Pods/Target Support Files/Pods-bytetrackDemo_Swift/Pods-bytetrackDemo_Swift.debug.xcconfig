@@ -1,9 +1,10 @@
 CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/bytetrack"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/YYText" "${PODS_ROOT}/bytetrack"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/YYText/YYText.framework/Headers"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_CFLAGS = $(inherited) -iframework "${PODS_ROOT}/bytetrack"
-OTHER_LDFLAGS = $(inherited) -ObjC -framework "Foundation" -framework "UIKit" -framework "bytetrack"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_CONFIGURATION_BUILD_DIR}/YYText/YYText.framework/Headers" -iframework "${PODS_CONFIGURATION_BUILD_DIR}/YYText" -iframework "${PODS_ROOT}/bytetrack"
+OTHER_LDFLAGS = $(inherited) -ObjC -framework "Accelerate" -framework "CoreFoundation" -framework "CoreText" -framework "Foundation" -framework "MobileCoreServices" -framework "QuartzCore" -framework "UIKit" -framework "YYText" -framework "bytetrack"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
