@@ -39,6 +39,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 +(void)setLanguage:(int)languageType;
 
+//设置收到消息时是否有音效提醒,默认YES
++(void)setSoundsEnable:(BOOL)enable;
+
 //打开信使
 +(void)presentMessenger;
 
