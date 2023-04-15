@@ -10,8 +10,6 @@
 #import <UIKit/UIKit.h>
 NS_ASSUME_NONNULL_BEGIN
 
-//Bytetrack
-
 @interface Bytetrack : NSObject
 
 /// 初始化信使SDK
@@ -45,6 +43,10 @@ NS_ASSUME_NONNULL_BEGIN
 //打开信使
 +(void)presentMessenger;
 
+/// 打开信使专属客服
+/// - Parameter groupId: 专属客服的groupId
++(void)presentMessengerWithgroupId:(NSString*)groupId;
+
 //设置启动图标是否一直可见,默认否
 + (void)setLauncherVisible:(BOOL)visible;
 
@@ -65,6 +67,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 //设置消息在指定页面弹窗，一般设置为程序主页，不设置则默认APP的启动页面弹窗
 +(void)setPopViewController:(NSString*)viewControllerName;
+
+
 
 @end
 

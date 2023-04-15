@@ -1,4 +1,4 @@
-/* 
+/*
   Localizable.strings
   UTLanguage
 
@@ -20,7 +20,7 @@
 "说点什么……" = "Say something…";
 "发送" = "Send";
 "在线" = "Active";
-"离开" = "Away";
+"离线" = "Away";
 "已提交" = "Submitted";
 "提交" = "Submit";
 "未读" = "Not seen yet";
@@ -38,11 +38,11 @@
 "感谢咨询，希望下次还可以为您服务！" = "Thank you for your consultation. I hope I can serve you next time";
 "保留" = "Hold";
 "结束" = "Close";
-"几分钟后" = "In a few minutes";
-"几个小时后" = "In a few hours";
-"一天后" = "One day later";
-"不到1分钟" = "Less than a minute";
-"尽快" = "We’ll reply as soon as we can";
+"在几分钟后" = "In a few minutes";
+"在几个小时后" = "In a few hours";
+"在一天后" = "in a day";
+"在一分钟内" = "within a minute";
+"尽快" = "as soon as we can";
 "未知" = "Unknow";
 "关闭" = "Close";
 "已读" = "Seen";
@@ -50,8 +50,8 @@
 "链接"="link";
 "文件"="file";
 "内部消息"="Note";
-"离线" = "Offline";
-"在线" = "Online";
+//"离线" = "Offline";
+//"在线" = "Online";
 "长图"="Full";
 "保存"="Save";
 "小时前"=" hour ago";
@@ -133,8 +133,9 @@
 "Safari"="Safari";
 "未命名"="Untitled article";
 "文章"="article";
-"推荐文章" = "Recommended";
-"搜索推荐的文章..." = "Search for recommended articles...";
+"推荐文章" = "Recommended articles";
+"推荐文章标题" = "All Articles";
+"搜索推荐的文章..." = "Search articles...";
 "暂无数据"="No Data";
 "查看更多" = "See more";
 "当前版本暂不支持该条消息类型，请升级到最新版本查看!!!" = "【The current version does not support this message type, please upgrade to the latest version to check!!】";
@@ -148,3 +149,19 @@
 "我知道了" = "I know";
 "清除成功" = "Clearing succeeded";
 "展开" = "More";
+"撤回"="Retract";
+"某人撤回" = "%@ retracted a message";
+"您撤回了一条消息"="You retracted a message";
+"联系我们" = "Talk to us";
+"消息" = "message";
+"客服当前忙碌，您可以自助服务，或给我们留言" = "Customer service is busy now,you can self-service,or leave us a message";
+"查看和回顾所有服务记录" = "View and review all chat records";
+"客服当前忙碌，点击留言" = "Customer service is busy now";
+"您可以自助服务，或给我们留言" = "You can self-service,or leave us a message";
+"在这里说点什么吧" = "Say something here";
+"我们将尽快回复" = "We’ll reply as soon as we can";
+"某个时间回复" = "We’ll reply %@";
+"会话暂不可使用" = "The session is temporarily unavailable";
+"确认" = "Sure";
+"服务不可用，发送失败!" = "Service unavailable, send failed!";
+

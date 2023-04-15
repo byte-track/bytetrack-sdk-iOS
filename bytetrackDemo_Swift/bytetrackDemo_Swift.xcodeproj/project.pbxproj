@@ -106,8 +106,7 @@
 				D26DCB6428C1DC050093E596 /* Sources */,
 				D26DCB6528C1DC050093E596 /* Frameworks */,
 				D26DCB6628C1DC050093E596 /* Resources */,
-				74C7639EFA27C83B053CCFFD /* [CP] Copy Pods Resources */,
-				492ABA82B849BAB4BF56F649 /* [CP] Embed Pods Frameworks */,
+				3F4210B9E1C177268E93DA16 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -166,24 +165,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		492ABA82B849BAB4BF56F649 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-bytetrackDemo_Swift/Pods-bytetrackDemo_Swift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-bytetrackDemo_Swift/Pods-bytetrackDemo_Swift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-bytetrackDemo_Swift/Pods-bytetrackDemo_Swift-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		74C7639EFA27C83B053CCFFD /* [CP] Copy Pods Resources */ = {
+		3F4210B9E1C177268E93DA16 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
