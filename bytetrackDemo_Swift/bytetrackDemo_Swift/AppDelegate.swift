@@ -9,6 +9,8 @@ import UIKit
 import CoreData
 
 
+#warning ("特别说明:该demo仅供参考，demo中引用的bytetrackSDK不一定是最新版本，如您想体验最新版本，在您下载后可以执行pod update bytetrack命令升级版本，版本记录请查看https://github.com/byte-track/bytetrack-sdk-iOS/releases")
+
 #warning("此处要替换为你在bytetrack后台申请的真实apiKey和appId")
 
 let apiKey:String = "YOUR API KEY"//appkey
