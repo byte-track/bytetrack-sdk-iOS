@@ -1,4 +1,4 @@
-/*
+/* 
   Localizable.strings
   UTLanguage
 
@@ -164,4 +164,7 @@
 "会话暂不可使用" = "The session is temporarily unavailable";
 "确认" = "Sure";
 "服务不可用，发送失败!" = "Service unavailable, send failed!";
-
+"平台" = "Platform";
+"服务团队" = "Service team";
+"当前格式不支持"="Format not supported";
+"只能发送20M以内的文件"="Only files within 20M can be sent";
