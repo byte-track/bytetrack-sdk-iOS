@@ -47,6 +47,10 @@ NS_ASSUME_NONNULL_BEGIN
 /// - Parameter groupId: 专属客服的groupId
 +(void)presentMessengerWithgroupId:(NSString*)groupId;
 
+/// 用Bytetrack提供的浏览器打开链接
+/// - Parameter url: 链接地址
++(void)openWebViewControllerWithUrl:(NSString*)url;
+
 //设置启动图标是否一直可见,默认否
 + (void)setLauncherVisible:(BOOL)visible;
 
@@ -68,7 +72,8 @@ NS_ASSUME_NONNULL_BEGIN
 //设置消息在指定页面弹窗，一般设置为程序主页，不设置则默认APP的启动页面弹窗
 +(void)setPopViewController:(NSString*)viewControllerName;
 
-
+/// 清除本地缓存
++(void)clearCache;
 
 @end
 
