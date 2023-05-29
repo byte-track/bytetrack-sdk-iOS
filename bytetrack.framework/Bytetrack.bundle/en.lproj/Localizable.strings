@@ -168,3 +168,13 @@
 "服务团队" = "Service team";
 "当前格式不支持"="Format not supported";
 "只能发送20M以内的文件"="Only files within 20M can be sent";
+
+"浏览器打开" = "Open with browser";
+"用其他方式打开" = "Open with";
+"刷新" = "Refresh";
+"复制链接" = "Copy link";
+"该格式不支持预览" = "This format does not support preview";
+"查看原图" = "Full image";
+"已完成"="Completed";
+"下载失败"="download failed";
+
