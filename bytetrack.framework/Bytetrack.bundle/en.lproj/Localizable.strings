@@ -178,4 +178,12 @@
 "已完成"="Completed";
 "下载失败"="download failed";
 "请给我们留言，我们将尽快联系" = "Please leave us a message, we will contact you as soon as possible";
+"正在请求中" = "In request";
+"未解决？转人工" = "Unresolved? Click here";
+"好的，正在转接，稍后由我的队友为您解答" = "Alright, transferring, my teammate will answer for you later";
+"思考中" = "Thinking";
+"我在持续思考了" = "Still thinking";
+"我在努力思考了" = "Keep thinking";
+"我在绞尽脑汁思考了" = "Working on it";
+"我在苦心冥想了" = "Still working on it";
 
