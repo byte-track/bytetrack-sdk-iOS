@@ -95,7 +95,7 @@ pod repo update
 ![](https://github.com/byte-track/picture/blob/master/pictures/L1VzZXJzL3N1bmxpYW5nL0xpYnJhcnkvQ29udGFpbmVycy81WlNMMkNKVTJULmNvbS5kaW5ndGFsay5tYWMvRGF0YS9MaWJyYXJ5L0FwcGxpY2F0aW9uIFN1cHBvcnQvRGluZ1RhbGtNYWMvMjYxMTA3NTY1X3YyL0ltYWdlRmlsZXMvMTY2MzMwODM5OTcxM182RkE5Q0Y3NS03Q0JBLTRENzEtQjI1MC0zNTYzMzM3RDU1M0IucG5n.png)
 
 # 技术支持
-&nbsp;&nbsp;除此之外，我们通过[使用指南](https://www.yuque.com/books/share/ad2cd6ce-faee-4c99-b6cb-4dc44564952e/fmyt4m)，为您提供了更加详细的使用说明。
+&nbsp;&nbsp;除此之外，我们通过[使用指南](https://docs.bytrack.com/8CTFE8cF/developers/wikidetail?articleId=Y9LNgap5ZZ&usageCategoryId=444)，为您提供了更加详细的使用说明。
 
 &nbsp;&nbsp;如果您遇到了使用问题，或者你想咨询有经验的开发者，可以加入我们的技术交流群：
 - QQ交流群：530947468
