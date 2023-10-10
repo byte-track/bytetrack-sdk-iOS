@@ -32,8 +32,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (void)registerUserAttributes:(nonnull NSArray<NSDictionary*>*)userAttributes;
 
-/// 设置信使语言
-/// @param languageType 语言种类  1:zh-Hans  2:en  ，不设置则默认手机系统语言，若手机系统语言超出SDK支持的语言库，则默认中文。目前SDK版本只支持中文和英文。
+/// 设置信使显示的语言
+/// @param languageType 语言种类  1:中文简体  2:英文 3:中文繁体 4:日语  5:韩语 6:越南语 7:老挝语 8:缅甸语 9:泰语 10:马来语 11:印尼语 12:俄语，不设置则显示中台设置的默认语言。
 
 +(void)setLanguage:(int)languageType;
 

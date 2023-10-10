@@ -1,0 +1,166 @@
+/* 
+  Localizable.strings
+  UTLanguage
+
+  Created by sunliang on 2022/4/8.
+  
+*/
+
+//印尼语
+
+"网络不可用，请检查网络" = "Tidak ada jaringan, silakan periksa";
+"未配置appId" = "Tidak ada konfigurasi AppId";
+"apiKey和appId不匹配" = "apiKey dan appId tidak cocok";
+"确定"="Konfirmasi";
+"取消"="Batal";
+"预计回复时间" = "Waktu balasan";
+"所有会话" = "Semua percakapan";
+"说点什么…" = "Katakan sesuatu…";
+"发送" = "Kirim";
+"在线" = "Aktif";
+"离线" = "Jauh";
+"未读" = "Belum dilihat";
+"客服当前忙碌" = "Sibuk sekarang";
+"尽快" = "Secepat mungkin";
+"未知" = "tidak diketahui";
+"关闭" = "Tutup";
+"图片"="gambar";
+"链接"="Tautan";
+"文件"="Berkas";
+"长图"="Penuh";
+"保存"="Simpan";
+"某个小时前"="%@ jam lalu";
+"刚刚"=" Barusan";
+"某分钟前"="%@ menit lalu";
+"昨天"=" kemarin ";
+"保存成功"="Berhasil disimpan";
+"保存失败"="Simpan gagal";
+"有新消息，点击查看"="Pesan baru, klik untuk melihat";
+"下载"="Unduh";
+"加载失败..."="Gagal memuat...";
+"选择图片失败"="Gagal memilih gambar";
+//刷新控件
+"下拉可以刷新"="Tarik ke bawah untuk menyegarkan";
+"松开立即刷新"="Lepaskan untuk segera menyegarkan";
+"正在刷新数据中..."="
+Menyegarkan data ...";
+"已经全部加载完毕"="Semua telah dimuat";
+"上拉可以加载更多"="Tarik ke atas untuk memuat lebih banyak";
+"正在加载更多的数据..."="Memuat lebih banyak data ..";
+"松开立即加载更多"="Lepaskan untuk memuat lebih banyak sekarang";
+"最后更新"="pembaruan terkini";
+"下拉可以加载更多" = "Tarik ke bawah untuk memuat lebih banyak";
+"松开加载更多" = "Lepaskan untuk memuat lebih banyak";
+"无记录"="tidak ada catatan";
+"今天"="Hari ini";
+"没有更多数据了" = "Tidak ada data lagi";
+//图片选择器
+"OK"                      = "Tentu";
+"Back"                    = "kembali";
+"Done"                    = "Menyelesaikan";
+"Edit"                    = "sunting";
+"Sorry"                   = "Merasa kasihan";
+"Cancel"                  = "Membatalkan";
+"Setting"                 = "mempersiapkan";
+"Photos"                  = "foto";
+"Videos"                  = "video";
+"Preview"                 = "Pratinjau";
+"Full image"              = "Gambar asli";
+"Processing..."           = "Pengolahan...";
+"No Photos or Videos"     = "Tidak ada foto atau video";
+"Synchronizing photos from iCloud" = "Menyinkronkan foto dari iCloud";
+"iCloud sync failed"    = "iCloud tidak dapat melakukan sinkronisasi";
+"Can not use camera"      = "Tidak dapat menggunakan kamera";
+"Can not choose both video and photo" = "Tidak dapat memilih video saat memilih foto";
+"Can not choose both photo and GIF" = "GIF tidak dapat dipilih saat memilih foto";
+"Select the video when in multi state, we will handle the video as a photo" = "Pilih video dalam mode multi-pilih, dan video akan dikirim sebagai gambar secara default.";
+"Can not jump to the privacy settings page, please go to the settings page by self, thank you" = "Tidak dapat melompat ke halaman pengaturan privasi, silakan masuk ke halaman pengaturan secara manual, terima kasih";
+"Select a maximum of %zd photos" = "Pilih hingga %zd foto.";
+"Select a minimum of %zd photos" = "Silakan pilih setidaknya %zd foto";
+"Allow %@ to access your album in \"Settings -> Privacy -> Photos\"" = "Izinkan %@ mengakses album foto ponsel Anda di opsi Pengaturan-Privasi-Foto iPhone";
+"Please allow %@ to access your camera in \"Settings -> Privacy -> Camera\"" = "Izinkan %@ mengakses kamera di Pengaturan-Privasi-Kamera di iPhone Anda";
+"Selected for %ld seconds" = "%lds dipilih";
+//下拉刷新
+"UTrackerMJRefreshHeaderIdleText" = "Tarik ke bawah untuk menyegarkan";
+"UTrackerMJRefreshHeaderPullingText" = "Lepaskan untuk segera menyegarkan";
+"UTrackerMJRefreshHeaderRefreshingText" = "Menyegarkan data...";
+"UTrackerMJRefreshTrailerIdleText" = "Geser untuk melihat detail grafis";
+"UTrackerMJRefreshTrailerPullingText" = "Lepaskan untuk melihat detail grafis";
+"UTrackerMJRefreshAutoFooterIdleText" = "Klik atau tarik ke atas untuk memuat lebih banyak";
+"UTrackerMJRefreshAutoFooterRefreshingText" = "Memuat lebih banyak data...";
+"UTrackerMJRefreshAutoFooterNoMoreDataText" = "Semua telah dimuat";
+"UTrackerMJRefreshBackFooterIdleText" = "Tarik ke atas untuk memuat lebih banyak";
+"UTrackerMJRefreshBackFooterPullingText" = "Lepaskan untuk memuat lebih banyak sekarang";
+"UTrackerMJRefreshBackFooterRefreshingText" = "Memuat lebih banyak data...";
+"UTrackerMJRefreshBackFooterNoMoreDataText" = "Semua telah dimuat";
+"UTrackerMJRefreshHeaderLastTimeText" = "pembaruan terbaru：";
+"UTrackerMJRefreshHeaderDateTodayText" = "Hari ini";
+"UTrackerMJRefreshHeaderNoneLastDateText" = "tidak ada catatan";
+"该网站无法打开" = "Situs web ini tidak dapat dibuka";
+"确认重新发送？" = "Apakah Anda mengonfirmasi ingin mengirim lagi?";
+"复制"="Salin";
+"已复制到剪切板"="Telah disalin";
+"其他打开方式"="Buka dengan";
+"Safari"="Safari";
+"未命名"="Tanpa judul";
+"文章"="Artikel";
+"推荐文章" = "Artikel Rekomendasi";
+"推荐文章标题" = "Artikel Rekomendasi";
+"搜索推荐的文章..." = "Cari...";
+"暂无数据"="Tidak ada data";
+"查看更多" = "lebih";
+"当前版本暂不支持该条消息类型，请升级到最新版本查看!!!" = "【Versi saat ini tidak mendukung tipe pesan ini. Silakan meningkatkan ke versi terbaru untuk melihatnya!!】";
+"大写文章"="Artikel";
+"探索" = "Eksplorasi";
+"查看详情" = "Lihat butiran";
+"通知" = "Pengingat";
+"各类提醒、通知、公告等消息等您亲启" = "Silakan cek pemberitahuan, pengumuman, dan lainnya";
+"我知道了" = "Saya tahu";
+"清除成功" = "Berhasil dibersihkan";
+"展开" = "Lebih";
+"撤回"="Batal";
+"某人撤回" = "%@ mencabut pesan";
+"您撤回了一条消息"="Anda mencabut pesan";
+"联系我们" = "Cari kami";
+"消息" = "Pesan";
+"客服当前忙碌，您可以自助服务，或给我们留言" = "Sibuk sekarang.Anda bisa mandiri atau tinggalkan pesan";
+"查看和回顾所有服务记录" = "Lihat semua obrolan";
+"客服当前忙碌，点击留言" = "Sedang sibuk, silakan tinggalkan pesan";
+"您可以自助服务，或给我们留言" = "Anda bisa mandiri atau tinggalkan pesan";
+"在这里说点什么吧" = "Katakan sesuatu";
+"会话暂不可使用" = "Fungsi obrolan tidak dapat digunakan";
+"确认" = "Mengonfirmasi";
+"服务不可用，发送失败!" = "Gagal mengirim, harap coba lagi!";
+"平台" = "platform";
+"服务团队" = "Tim";
+"当前格式不支持"="Format saat ini tidak didukung";
+"只能发送20M以内的文件"="File tidak boleh melebihi 20MB";
+"浏览器打开" = "Buka dengan browser";
+"用其他方式打开" = "Buka dengan";
+"刷新" = "Segarkan";
+"复制链接" = "Salin";
+"该格式不支持预览" = "Format ini tidak dapat dipreview";
+"查看原图" = "Gambar penuh";
+"已完成"="Selesai";
+"下载失败"="Download gagal";
+"请给我们留言，我们将尽快联系" = "Silakan tinggalkan pesan dan kami akan segera membalasnya";
+"未解决？转人工" = "Tidak puas? Klik di sini";
+"好的，正在转接，稍后由我的队友为您解答" = "OK,tunggu sebentar, tim saya akan melayani Anda nanti";
+"思考中" = "berpikir";
+"我在持续思考了" = "masih berpikir";
+"我在努力思考了" = "terus berpikir";
+"我在绞尽脑汁思考了" = "sedang mengerjakan";
+"我在苦思冥想了" = "masih sedang mengerjakan";
+"加载更多历史消息" = "Lihat sejarah";
+"以下为新消息" = "Berikut adalah pesan baru";
+"系统头像库初始化失败" = "Inisialisasi perpustakaan avatar sistem";
+"几分钟后" = "Beberapa menit";
+"几个小时后" = "Beberapa jam";
+"一天后" = "suatu hari";
+"一分钟内" = "Dalam satu menit";
+"我们将在几分钟后回复" = "Kontak dalam beberapa menit";
+"我们将在几个小时后回复" = "Kontak dalam beberapa jam";
+"我们将在一天后回复" = "Kontak dalam sehari";
+"我们将在一分钟内回复" = "Kontak dalam satu menit";
+"我们将尽快回复" = "Kami akan segera menjawab";
+
