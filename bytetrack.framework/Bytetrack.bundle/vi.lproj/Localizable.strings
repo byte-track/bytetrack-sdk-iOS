@@ -1,0 +1,166 @@
+/* 
+  Localizable.strings
+  UTLanguage
+
+  Created by sunliang on 2022/4/8.
+  
+*/
+
+//越南语
+
+"网络不可用，请检查网络" = "Không có mạng, vui lòng kiểm tra";
+"未配置appId" = "Chưa cấu hình appId";
+"apiKey和appId不匹配" = "APiKey và AppId không khớp nhau";
+"确定"="Xác nhận";
+"取消"="Hủy bỏ";
+"预计回复时间" = "Thời gian phản hồi";
+"所有会话" = "Tất cả trò chuyện";
+"说点什么…" = "Nói gì đi chứ…";
+"发送" = "Gửi";
+"在线" = "Trực tuyến";
+"离线" = "rời bỏ";
+"未读" = "Chưa đọc";
+"客服当前忙碌" = "Bây giờ đang bận rộn";
+"尽快" = "Càng sớm càng tốt";
+"未知" = "Không rõ";
+"关闭" = "Đóng";
+"图片"="Hình ảnh";
+"链接"="Liên kết";
+"文件"="Tập tin";
+"长图"="Đầy đủ";
+"保存"="Lưu trữ";
+"某个小时前"="%@ giờ trước";
+"刚刚"=" Vừa mới";
+"某分钟前"="%@ phút trước";
+"昨天"=" Hôm qua ";
+"保存成功"="Lưu thành công";
+"保存失败"="Lỗi lưu";
+"有新消息，点击查看"="Tin mới, nhấp để xem";
+"下载"="Tải về";
+"加载失败..."="Tải thất bại...";
+"选择图片失败"="Chọn ảnh thất bại";
+//刷新控件
+"下拉可以刷新"="Kéo xuống để làm mới";
+"松开立即刷新"="Thả ra để làm mới ngay lập tức";
+"正在刷新数据中..."="Đang làm mới dữ liệu ...";
+"已经全部加载完毕"="Tất cả đã được tải";
+"上拉可以加载更多"="Kéo lên để tải thêm";
+"正在加载更多的数据..."="Đang tải thêm dữ liệu. ..";
+"松开立即加载更多"="Phát hành để tải thêm bây giờ";
+"最后更新"="cập nhật mới nhất";
+"下拉可以加载更多" = "Kéo xuống để tải thêm";
+"松开加载更多" = "Phát hành để tải thêm";
+"无记录"="không có hồ sơ";
+"今天"="Hôm nay";
+"没有更多数据了" = "Không còn dữ liệu";
+//图片选择器
+"OK"                      = "Chắc chắn";
+"Back"                    = "trở lại";
+"Done"                    = "Hoàn thành";
+"Edit"                    = "
+biên tập";
+"Sorry"                   = "Cảm thấy có lỗi";
+"Cancel"                  = "Hủy bỏ";
+"Setting"                 = "cài đặt";
+"Photos"                  = "hình chụp";
+"Videos"                  = "băng hình";
+"Preview"                 = "Xem trước";
+"Full image"              = "Ảnh gốc";
+"Processing..."           = "Xử lý...";
+"No Photos or Videos"     = "Không có ảnh hoặc video";
+"Synchronizing photos from iCloud" = "Đồng bộ hóa ảnh từ iCloud";
+"iCloud sync failed"    = "iCloud không thể đồng bộ hóa";
+"Can not use camera"      = "Không thể sử dụng máy ảnh";
+"Can not choose both video and photo" = "Không chọn được video khi chọn ảnh";
+"Can not choose both photo and GIF" = "Không thể chọn ảnh GIF khi chọn ảnh";
+"Select the video when in multi state, we will handle the video as a photo" = "Chọn một video ở chế độ chọn nhiều mục và video sẽ được gửi dưới dạng hình ảnh theo mặc định.";
+"Can not jump to the privacy settings page, please go to the settings page by self, thank you" = "Không thể chuyển đến trang cài đặt quyền riêng tư, vui lòng truy cập trang cài đặt theo cách thủ công, cảm ơn bạn";
+"Select a maximum of %zd photos" = "Bạn chỉ có thể chọn tối đa %zd  bức ảnh.";
+"Select a minimum of %zd photos" = "Vui lòng chọn ít nhất %zd ảnh";
+"Allow %@ to access your album in \"Settings -> Privacy -> Photos\"" = "Vui lòng cho phép %@ truy cập album ảnh trên điện thoại của bạn trong tùy chọn Cài đặt-Quyền riêng tư-Ảnh của iPhone";
+"Please allow %@ to access your camera in \"Settings -> Privacy -> Camera\"" = "Vui lòng cho phép %@ truy cập vào camera trong Cài đặt-Quyền riêng tư-Camera trên iPhone của bạn";
+"Selected for %ld seconds" = "%lds đã chọn";
+//下拉刷新
+"UTrackerMJRefreshHeaderIdleText" = "Kéo xuống để làm mới";
+"UTrackerMJRefreshHeaderPullingText" = "Thả ra để làm mới ngay lập tức";
+"UTrackerMJRefreshHeaderRefreshingText" = "Đang làm mới dữ liệu...";
+"UTrackerMJRefreshTrailerIdleText" = "Vuốt để xem chi tiết đồ họa";
+"UTrackerMJRefreshTrailerPullingText" = "Nhả tay để xem chi tiết đồ họa";
+"UTrackerMJRefreshAutoFooterIdleText" = "Nhấp hoặc kéo lên để tải thêm";
+"UTrackerMJRefreshAutoFooterRefreshingText" = "Đang tải thêm dữ liệu...";
+"UTrackerMJRefreshAutoFooterNoMoreDataText" = "Tất cả đã được tải";
+"UTrackerMJRefreshBackFooterIdleText" = "Kéo lên để tải thêm";
+"UTrackerMJRefreshBackFooterPullingText" = "Phát hành để tải thêm bây giờ";
+"UTrackerMJRefreshBackFooterRefreshingText" = "Đang tải thêm dữ liệu...";
+"UTrackerMJRefreshBackFooterNoMoreDataText" = "Tất cả dữ liệu đã được tải";
+"UTrackerMJRefreshHeaderLastTimeText" = "cập nhật mới nhất：";
+"UTrackerMJRefreshHeaderDateTodayText" = "Hôm nay";
+"UTrackerMJRefreshHeaderNoneLastDateText" = "không có hồ sơ";
+"该网站无法打开" = "Trang web không thể mở";
+"确认重新发送？" = "Bạn có xác nhận bạn muốn gửi lại không?";
+"复制"="Sao chép";
+"已复制到剪切板"="Đã sao chép";
+"其他打开方式"="Mở theo cách khác";
+"Safari"="Safari";
+"未命名"="Không tên";
+"文章"="Bài viết";
+"推荐文章" = "Bài viết được đề xuất";
+"推荐文章标题" = "Bài viết được đề xuất";
+"搜索推荐的文章..." = "Tìm kiếm...";
+"暂无数据"="Không có dữ liệu";
+"查看更多" = "Xem thêm";
+"当前版本暂不支持该条消息类型，请升级到最新版本查看!!!" = "【Phiên bản hiện tại không hỗ trợ loại tin nhắn này, vui lòng nâng cấp lên phiên bản mới nhất để xem!!】";
+"大写文章"="Bài viết";
+"探索" = "Khám phá";
+"查看详情" = "Xem chi tiết";
+"通知" = "Nhắc nhở";
+"各类提醒、通知、公告等消息等您亲启" = "Các loại nhắc nhở, thông báo, thông báo, v";
+"我知道了" = "Hiểu rồi";
+"清除成功" = "Xóa thành công";
+"展开" = "Thêm";
+"撤回"="Hủy bỏ";
+"某人撤回" = "%@ đã gửi tin nhắn";
+"您撤回了一条消息"="Bạn đã rút lại một tin nhắn";
+"联系我们" = "Tìm chúng tôi";
+"消息" = "Tin nhắn";
+"客服当前忙碌，您可以自助服务，或给我们留言" = "Bây giờ đang bận rộn.Bạn có thể tự phục vụ";
+"查看和回顾所有服务记录" = "Xem tất cả hồ sơ dịch vụ";
+"客服当前忙碌，点击留言" = "Công việc bận rộn, để lại lời nhắn";
+"您可以自助服务，或给我们留言" = "Bạn có thể tự phục vụ";
+"在这里说点什么吧" = "Nói điều gì đó";
+"会话暂不可使用" = "Phiên chạy không khả dụng";
+"确认" = "Xác nhận";
+"服务不可用，发送失败!" = "Thất bại, vui lòng thử lại!";
+"平台" = "nền tảng";
+"服务团队" = "Nhóm";
+"当前格式不支持"="Định dạng hiện tại không được hỗ trợ";
+"只能发送20M以内的文件"="Chỉ gửi tài liệu trong vòng 20m";
+"浏览器打开" = "Mở bằng trình duyệt";
+"用其他方式打开" = "Mở theo cách khác";
+"刷新" = "Làm mới";
+"复制链接" = "Sao chép";
+"该格式不支持预览" = "Định dạng này không hỗ trợ xem trước";
+"查看原图" = "ảnh đầy đủ";
+"已完成"="Đã hoàn thành";
+"下载失败"="Tải xuống thất bại";
+"请给我们留言，我们将尽快联系" = "Vui lòng để lại tin nhắn, chúng tôi sẽ liên hệ sớm nhất có thể";
+"未解决？转人工" = "Unresolved? Click here";//Chưa giải quyết? Nhấn vào đây.
+"好的，正在转接，稍后由我的队友为您解答" = "Được rồi, đang chuyển máy. Đồng đội của tôi sẽ trả lời anh sau";
+"思考中" = "đang nghĩ";
+"我在持续思考了" = "vẫn còn đang nghĩ";
+"我在努力思考了" = "tiếp tục nghĩ";
+"我在绞尽脑汁思考了" = "Trong nỗ lực";
+"我在苦思冥想了" = "Vẫn đang cố gắng";
+"加载更多历史消息" = "Tải thêm tin nhắn lịch sử";
+"以下为新消息" = "Dưới đây là tin nhắn mới";
+"系统头像库初始化失败" = "Lỗi khởi tạo thư viện ảnh đại diện hệ thống";
+"几分钟后" = "Vài phút";
+"几个小时后" = "Vài giờ sau";
+"一天后" = "Một ngày sau";
+"一分钟内" = "Trong một phút";
+"我们将在几分钟后回复" = "Sẽ trả lời bạn trong vài phút";
+"我们将在几个小时后回复" = "Sẽ trả lời sau vài giờ";
+"我们将在一天后回复" = "Sẽ trả lời sau một ngày";
+"我们将在一分钟内回复" = "Sẽ trả lời trong vòng một phút";
+"我们将尽快回复" = "Chúng tôi sẽ trả lời sớm.";
+
