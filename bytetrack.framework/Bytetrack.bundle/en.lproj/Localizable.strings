@@ -5,6 +5,9 @@
   Created by sunliang on 2022/4/8.
   
 */
+
+//英文
+
 "网络不可用，请检查网络" = "Network error,please check network!";
 "未配置appId" = "AppId not configured";
 "apiKey和appId不匹配" = "ApiKey and appId do not match";
@@ -157,4 +160,6 @@
 "我们将在一天后回复" = "We will reply in one day";
 "我们将在一分钟内回复" = "We will reply within one minute";
 "我们将尽快回复" = "We will reply as soon as possible";
-
+"已读" = "Seen";
+"已读" = "Seen";
+"已读" = "Seen";
