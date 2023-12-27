@@ -60,18 +60,6 @@ NS_ASSUME_NONNULL_BEGIN
 //获取SDK版本号
 +(NSString*)getSDKVersion;
 
-//打开通知中心
-+ (void)presentNotificationCenter;
-
-//通知中心未读消息数量
-+ (NSUInteger)unreadNotificationCenterMessageCount;
-
-//通知消息点击后的回调
-+ (void)notificationCenterMessageEventCompletion:(void(^ __nullable)(NSDictionary * _Nullable params,NSError *_Nullable error))completion;
-
-//设置消息在指定页面弹窗，一般设置为程序主页，不设置则默认APP的启动页面弹窗
-+(void)setPopViewController:(NSString*)viewControllerName;
-
 /// 清除本地缓存
 +(void)clearCache;
 
