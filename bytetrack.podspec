@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "bytetrack"
-  spec.version      = "1.14.0"
+  spec.version      = "1.15.0"
   spec.summary      = "bytetrack系统SDK"
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -121,7 +121,8 @@ Pod::Spec.new do |spec|
   
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
 
-   spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'armv7 i386 x86_64 arm64'}#支持架构配置
+   #spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'armv7 i386 x86_64 arm64'}#支持架构配置
+   spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 arm64'}#支持架构配置
 
     #spec.dependency "Protobuf", "~> 3.13.0"#依赖的第三方库
     

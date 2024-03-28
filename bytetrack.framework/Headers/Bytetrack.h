@@ -33,7 +33,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)registerUserAttributes:(nonnull NSArray<NSDictionary*>*)userAttributes;
 
 /// 设置信使显示的语言
-/// @param languageType 语言种类  1:中文简体  2:英文 3:中文繁体 4:日语  5:韩语 6:越南语 7:老挝语 8:缅甸语 9:泰语 10:马来语 11:印尼语 12:俄语 13:法语 14:意大利语;不设置或设置的不合法则显示中台设置的默认语言。
+/// @param languageType 语言种类  1:中文简体  2:英文 3:中文繁体 4:日语  5:韩语 6:越南语 7:老挝语 8:缅甸语 9:泰语 10:马来语 11:印尼语 12:俄语 13:法语 14:意大利语 15:西班牙语 16:德语;不设置或设置的不合法则显示中台设置的默认语言。
 
 +(void)setLanguage:(int)languageType;
 

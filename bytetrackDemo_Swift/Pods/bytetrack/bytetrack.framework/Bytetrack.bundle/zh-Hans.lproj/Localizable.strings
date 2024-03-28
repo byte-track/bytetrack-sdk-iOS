@@ -1,37 +1,21 @@
-/*
+/* 
   Localizable.strings
   UTLanguage
 
   Created by sunliang on 2022/4/8.
   
 */
-"聊点什么吧" ="聊点什么吧";
-"开启新的会话" ="开启新的会话";
+
+//中文简体
+
 "预计回复时间" ="预计回复时间";
-"继续会话" ="继续会话";
-"进行中" ="进行中";
 "所有会话" ="所有会话";
-"说点什么……" ="说点什么……";
+"说点什么…" ="说点什么…";
 "发送" ="发送";
 "在线" ="在线";
 "离线" ="离线";
-"已提交" ="已提交";
-"提交" ="提交";
 "未读" ="未读";
-"已读" ="已读";
 "客服当前忙碌" ="客服当前忙碌";
-"您可以通过帮助中心自助服务" ="您可以通过帮助中心自助服务";
-"也可以继续向我们发送消息" ="也可以继续向我们发送消息";
-"发送消息" ="也可以继续向我们发送消息";
-"留下您的联系方式，我们会尽快回复" ="留下您的联系方式，我们会尽快回复";
-"姓名" ="姓名";
-"联系电话" ="联系电话";
-"电子邮件" ="电子邮件";
-"微信号" ="微信号";
-"确定结束服务？" ="确定结束服务？";
-"感谢咨询，希望下次还可以为您服务" ="感谢咨询，希望下次还可以为您服务";
-"保留" ="保留";
-"结束" ="结束";
 //图片选择器
 "OK"                      = "确定";
 "Back"                    = "返回";
@@ -62,28 +46,21 @@
 "UTrackerMJRefreshHeaderIdleText" = "下拉可以刷新";
 "UTrackerMJRefreshHeaderPullingText" = "松开立即刷新";
 "UTrackerMJRefreshHeaderRefreshingText" = "正在刷新数据中...";
-
 "UTrackerMJRefreshTrailerIdleText" = "滑动查看图文详情";
 "UTrackerMJRefreshTrailerPullingText" = "释放查看图文详情";
-
 "UTrackerMJRefreshAutoFooterIdleText" = "点击或上拉加载更多";
 "UTrackerMJRefreshAutoFooterRefreshingText" = "正在加载更多的数据...";
 "UTrackerMJRefreshAutoFooterNoMoreDataText" = "已经全部加载完毕";
-
 "UTrackerMJRefreshBackFooterIdleText" = "上拉可以加载更多";
 "UTrackerMJRefreshBackFooterPullingText" = "松开立即加载更多";
 "UTrackerMJRefreshBackFooterRefreshingText" = "正在加载更多的数据...";
 "UTrackerMJRefreshBackFooterNoMoreDataText" = "已经全部加载完毕";
-
 "UTrackerMJRefreshHeaderLastTimeText" = "最后更新：";
 "UTrackerMJRefreshHeaderDateTodayText" = "今天";
 "UTrackerMJRefreshHeaderNoneLastDateText" = "无记录";
 "大写文章"="文章";
 "当前版本暂不支持该条消息类型，请升级到最新版本查看!!!" = "[当前版本暂不支持该条消息类型，请升级到最新版本查看!!!]";
 "推荐文章标题" = "推荐文章";
-"某个时间回复" = "我们将%@回复";
 "某人撤回" = "%@ 撤回了一条消息";
-"在几分钟后" = "在几分钟后";
-"在几个小时后" = "在几个小时后";
-"在一天后" = "在一天后";
-"在一分钟内" = "在一分钟内";
+"某个小时前" = "%@小时前";
+"某分钟前" = "%@分钟前";
