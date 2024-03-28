@@ -32,8 +32,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (void)registerUserAttributes:(nonnull NSArray<NSDictionary*>*)userAttributes;
 
-/// 设置信使语言
-/// @param languageType 语言种类  1:zh-Hans  2:en  ，不设置则默认手机系统语言，若手机系统语言超出SDK支持的语言库，则默认中文。目前SDK版本只支持中文和英文。
+/// 设置信使显示的语言
+/// @param languageType 语言种类  1:中文简体  2:英文 3:中文繁体 4:日语  5:韩语 6:越南语 7:老挝语 8:缅甸语 9:泰语 10:马来语 11:印尼语 12:俄语 13:法语 14:意大利语;不设置或设置的不合法则显示中台设置的默认语言。
 
 +(void)setLanguage:(int)languageType;
 
@@ -47,6 +47,10 @@ NS_ASSUME_NONNULL_BEGIN
 /// - Parameter groupId: 专属客服的groupId
 +(void)presentMessengerWithgroupId:(NSString*)groupId;
 
+/// 用Bytetrack提供的浏览器打开链接
+/// - Parameter url: 链接地址
++(void)openWebViewControllerWithUrl:(NSString*)url;
+
 //设置启动图标是否一直可见,默认否
 + (void)setLauncherVisible:(BOOL)visible;
 
@@ -56,19 +60,8 @@ NS_ASSUME_NONNULL_BEGIN
 //获取SDK版本号
 +(NSString*)getSDKVersion;
 
-//打开通知中心
-+ (void)presentNotificationCenter;
-
-//通知中心未读消息数量
-+ (NSUInteger)unreadNotificationCenterMessageCount;
-
-//通知消息点击后的回调
-+ (void)notificationCenterMessageEventCompletion:(void(^ __nullable)(NSDictionary * _Nullable params,NSError *_Nullable error))completion;
-
-//设置消息在指定页面弹窗，一般设置为程序主页，不设置则默认APP的启动页面弹窗
-+(void)setPopViewController:(NSString*)viewControllerName;
-
-
+/// 清除本地缓存
++(void)clearCache;
 
 @end
 

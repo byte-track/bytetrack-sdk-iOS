@@ -1,0 +1,170 @@
+/* 
+  Localizable.strings
+  UTLanguage
+
+  Created by sunliang on 2022/4/8.
+  
+*/
+
+//法语
+
+"网络不可用，请检查网络" = "Le réseau n'est pas bon, veuillez vérifier le réseau";
+"未配置appId" = "AppId non configuré";
+"apiKey和appId不匹配" = "ApiKey et appId ne correspondent pas";
+"确定"="Confirmer";
+"取消"="Annuler";
+"预计回复时间" ="Temps de réponse estimé";
+"所有会话" ="Tous";
+"说点什么…" ="Dites quelque chose…";
+"发送" ="Envoyer";
+"在线" ="Actif";
+"离线" ="Absent";
+"未读" ="Non lu";
+"客服当前忙碌" ="Le service client est occupé";
+//自己翻
+"保存成功"="Enregistré avec succès";
+"保存失败"="Échec de la sauvegarde";
+"选择图片失败"="Échec de la sélection de l'image";
+"已复制到剪切板"="Déjà copié";
+"当前版本暂不支持该条消息类型，请升级到最新版本查看!!!" = "【La version actuelle ne prend pas en charge ce type de message. Veuillez mettre à niveau vers la dernière version pour l'afficher!!】";
+"清除成功" = "Effacer avec succès";
+"服务不可用，发送失败!" = "Service indisponible, envoi échoué!";
+"下载失败"="Échec du téléchargement";
+"系统头像库初始化失败" = "L'initialisation de la bibliothèque d'avatars du système a échoué";
+
+//图片选择器
+"OK"                      = "Confirmer";
+"Back"                    = "retour";
+"Done"                    = "Finition";
+"Edit"                    = "modifier";
+"Sorry"                   = "Se sentir désolé";
+"Cancel"                  = "Annuler";
+"Setting"                 = "installation";
+"Photos"                  = "photo";
+"Videos"                  = "vidéo";
+"Preview"                 = "Aperçu";
+"Full image"              = "originale";
+"Processing..."           = "Traitement...";
+"No Photos or Videos"     = "Pas de photos ni de vidéos";
+"Synchronizing photos from iCloud" = "Synchronisation des photos depuis iCloud";
+"iCloud sync failed"    = "iCloud ne peut pas synchroniser";
+"Can not use camera"      = "Je ne peux pas utiliser l'appareil photo";
+"Can not choose both video and photo" = "Impossible de sélectionner une vidéo lors de la sélection d'une photo";
+"Can not choose both photo and GIF" = "GIF ne peut pas être sélectionné lors de la sélection de photos";
+"Select the video when in multi state, we will handle the video as a photo" = "Sélectionnez une vidéo en mode multi-sélection et la vidéo sera envoyée sous forme d'image par défaut.";
+"Can not jump to the privacy settings page, please go to the settings page by self, thank you" = "Impossible d'accéder à la page des paramètres de confidentialité, veuillez accéder manuellement à la page des paramètres, merci";
+"Select a maximum of %zd photos" = "Vous ne pouvez sélectionner qu'au maximum %zd photos";
+"Select a minimum of %zd photos" = "Veuillez sélectionner au moins %zd photos";
+"Allow %@ to access your album in \"Settings -> Privacy -> Photos\"" = "Veuillez autoriser %@ à accéder à l'album photo de votre téléphone dans l'option Paramètres-Confidentialité-Photos de l'iPhone.";
+"Please allow %@ to access your camera in \"Settings -> Privacy -> Camera\"" = "Veuillez autoriser %@ à accéder à la caméra dans Paramètres-Confidentialité-Caméra sur votre iPhone";
+"Selected for %ld seconds" = "%lds sélectionné";
+//下拉刷新
+"UTrackerMJRefreshHeaderIdleText" = "Déroulez pour actualiser";
+"UTrackerMJRefreshHeaderPullingText" = "Relâchez pour actualiser immédiatement";
+"UTrackerMJRefreshHeaderRefreshingText" = "Actualisation des données...";
+"UTrackerMJRefreshTrailerIdleText" = "Faites glisser pour afficher les détails graphiques";
+"UTrackerMJRefreshTrailerPullingText" = "Relâchez pour afficher les détails graphiques";
+"UTrackerMJRefreshAutoFooterIdleText" = "Cliquez ou tirez vers le haut pour en charger davantage";
+"UTrackerMJRefreshAutoFooterRefreshingText" = "Chargement de plus de données...";
+"UTrackerMJRefreshAutoFooterNoMoreDataText" = "Tous ont été chargés";
+"UTrackerMJRefreshBackFooterIdleText" = "Tirez vers le haut pour charger davantage";
+"UTrackerMJRefreshBackFooterPullingText" = "Relâchez pour charger plus maintenant";
+"UTrackerMJRefreshBackFooterRefreshingText" = "Chargement de plus de données...";
+"UTrackerMJRefreshBackFooterNoMoreDataText" = "Tous ont été chargés";
+"UTrackerMJRefreshHeaderLastTimeText" = "dernière mise à jour：";
+"UTrackerMJRefreshHeaderDateTodayText" = "aujourd'hui";
+"UTrackerMJRefreshHeaderNoneLastDateText" = "aucun enregistrement";
+
+"尽快" = "Dès que possible";
+"未知" = "Type inconnu";
+"关闭" = "Fermer";
+"图片"="Image";
+"链接"="Lien";
+"文件"="Fichier";
+"长图"="Image longue";
+"保存"="Enregistrer";
+"某个小时前"="Il y a %@ heures";
+"刚刚"=" Il y a un instant";
+"某分钟前"="Il y a %@ minutes";
+"昨天"=" Hier ";
+
+//刷新控件
+"下拉可以刷新"="Déroulez pour actualiser";
+"松开立即刷新"="Relâchez pour actualiser immédiatement";
+"正在刷新数据中..."="Actualisation des données...";
+"已经全部加载完毕"="Tous ont été chargés";
+"上拉可以加载更多"="Tirez vers le haut pour charger davantage";
+"正在加载更多的数据..."="Chargement de plus de données...";
+"松开立即加载更多"="Relâchez pour charger plus maintenant";
+"最后更新"="dernière mise à jour";
+"下拉可以加载更多" = "Déroulez vers le bas pour charger plus";
+"松开加载更多" = "Relâchez pour charger plus";
+"无记录"="aucun enregistrement";
+"今天"="aujourd'hui";
+"没有更多数据了" = "Plus de données";
+
+
+"有新消息，点击查看"="Nouveaux messages, cliquez pour voir";
+"下载"="Télécharger";
+"加载失败..."="Échec du chargement...";
+"该网站无法打开" = "Cette page ne peut pas s'ouvrir";
+"确认重新发送？" = "Confirmer pour renvoyer？";
+"复制"="Copie";
+"其他打开方式"="Ouvrir avec";
+"Safari"="Safari";
+"未命名"="Sans titre";
+"文章"="Articles";
+"推荐文章" = "Articles recommandés";
+"推荐文章标题" = "Articles recommandés";
+"搜索推荐的文章..." = "Rechercher...";
+"暂无数据"="Pas de données";
+"查看更多" = "Voir plus";
+"大写文章"="Articles";
+"探索" = "Explorer";
+"查看详情" = "Voir les détails";
+"通知" = "Notification";
+"各类提醒、通知、公告等消息等您亲启" = "Toutes sortes de rappels, avis, annonces et autres messages vous attendent";
+"我知道了" = "J'ai compris";
+"展开" = "Expansion";
+"撤回"="Révoquer";
+"某人撤回" = "%@ a révoqué un message";
+"您撤回了一条消息"="Vous avez révoqué un message";
+"联系我们" = "Parlez-nous";
+"消息" = "Messages";
+"客服当前忙碌，您可以自助服务，或给我们留言" = "Le service client est occupé,Vous pouvez en libre-service ou laisser un message";
+"查看和回顾所有服务记录" = "Consulter les enregistrements de service";
+"客服当前忙碌，点击留言" = "Occupé pour le moment, cliquez pour laisser un message";
+"您可以自助服务，或给我们留言" = "Vous pouvez en libre-service ou laisser un message";
+"在这里说点什么吧" = "Dites quelque chose ici";
+"会话暂不可使用" = "La conversation n'est pas disponible";
+"确认" = "Confirmer";
+"平台" = "Plateforme";
+"服务团队" = "Équipe de service";
+"当前格式不支持"="Format non pris en charge";
+"只能发送20M以内的文件"="Seuls les fichiers de moins de 20 Mo peuvent être envoyés";
+"浏览器打开" = "Ouvrir avec le navigateur";
+"用其他方式打开" = "Ouvrir avec";
+"刷新" = "Rafraîchir";
+"复制链接" = "Copier le lien";
+"该格式不支持预览" = "Ce format ne peut pas être prévisualisé";
+"查看原图" = "Image entière";
+"已完成"="Terminé";
+"请给我们留言，我们将尽快联系" = "Laissez un message, nous vous contacterons rapidement";
+"未解决？转人工" = "Non résolu ? Cliquez ici";
+"好的，正在转接，稍后由我的队友为您解答" = "D'accord, attendez un instant. Mes coéquipiers vous serviront plus tard";
+"思考中" = "Réflexion";
+"我在持续思考了" = "Toujours en réflexion";
+"我在努力思考了" = "Continuez de réfléchir";
+"我在绞尽脑汁思考了" = "En cours de réalisation";
+"我在苦思冥想了" = "Toujours en cours de réalisation";
+"加载更多历史消息" = "Charger plus de messages historiques";
+"以下为新消息" = "Les messages suivants sont nouveaux";
+"几分钟后" = "Dans quelques minutes";
+"几个小时后" = "Dans quelques heures";
+"一天后" = "Dans un jour";
+"一分钟内" = "Moins d'une minute";
+"我们将在几分钟后回复" = "Nous répondrons dans quelques minutes";
+"我们将在几个小时后回复" = "Nous répondrons dans quelques heures";
+"我们将在一天后回复" = "Nous répondrons dans un jour";
+"我们将在一分钟内回复" = "Nous répondrons en moins d'une minute";
+"我们将尽快回复" = "Nous vous répondrons dès que possible";
