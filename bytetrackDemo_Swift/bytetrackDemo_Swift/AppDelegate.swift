@@ -28,7 +28,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        Bytetrack.initMessenger(withApiKey: apiKey, forAppId: appId, withPrivateServerURL: nil)//初始化SDK
+        Bytetrack.initMessenger(withApiKey: apiKey, forAppId: appId, withUserId: nil,withPhone: nil,withEmail: nil,withLanguage: nil,withgroupId: nil,withPrivateServerURL: nil)//初始化SDK
         Bytetrack.setLanguage(1)//设置语言
         Bytetrack.setLauncherVisible(true)//显示悬浮图标，默认不显示
         NSLog("此SDK版本号是--%@", Bytetrack .getSDKVersion())
