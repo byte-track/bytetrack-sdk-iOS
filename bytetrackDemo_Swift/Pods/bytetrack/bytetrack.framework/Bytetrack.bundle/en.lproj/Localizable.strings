@@ -160,6 +160,7 @@
 "我们将在一天后回复" = "We will reply in one day";
 "我们将在一分钟内回复" = "We will reply within one minute";
 "我们将尽快回复" = "We will reply as soon as possible";
-"已读" = "Seen";
-"已读" = "Seen";
-"已读" = "Seen";
+"关闭通知" = "Turn off notifications";
+"开启通知" = "Turn on notifications";
+"新消息通知" = "Message Notifications";
+"输入回复" = "Enter reply";

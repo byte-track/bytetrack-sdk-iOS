@@ -15,8 +15,13 @@ NS_ASSUME_NONNULL_BEGIN
 /// 初始化信使SDK
 /// @param apiKey 您的apiKey
 /// @param appId  您的appId
+/// @param userId 用户业务id，不设置则填nil，后面可以单独设置
+/// @param phone  用户手机号，不设置则填nil，后面可以单独设置
+/// @param email  用户邮箱，不设置则填nil，后面可以单独设置
+/// @param languageType 信使初始化语言，NSNumber类型，不设置则填nil，后面可以单独设置
+/// @param groupId 您的groupId，即专属客服Id,不设置则填nil
 /// @param url 选填，私有化部署地址，如果不是私有化部署，填nil
-+ (void)initMessengerWithApiKey:(NSString *)apiKey forAppId:(NSString *)appId withPrivateServerURL:(NSString *_Nullable)url;
++ (void)initMessengerWithApiKey:(NSString *)apiKey forAppId:(NSString *)appId withUserId:(NSString *_Nullable)userId withPhone:(NSString *_Nullable)phone withEmail:(NSString *_Nullable)email withLanguage:(NSNumber *_Nullable)languageType withgroupId:(NSString*_Nullable)groupId withPrivateServerURL:(NSString *_Nullable)url;
 
 //注册用户业务id
 + (void)registerUserWithUserId:(NSString *)userId;
@@ -33,7 +38,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)registerUserAttributes:(nonnull NSArray<NSDictionary*>*)userAttributes;
 
 /// 设置信使显示的语言
-/// @param languageType 语言种类  1:中文简体  2:英文 3:中文繁体 4:日语  5:韩语 6:越南语 7:老挝语 8:缅甸语 9:泰语 10:马来语 11:印尼语 12:俄语 13:法语 14:意大利语;不设置或设置的不合法则显示中台设置的默认语言。
+/// @param languageType 语言种类  1:中文简体  2:英文 3:中文繁体 4:日语  5:韩语 6:越南语 7:老挝语 8:缅甸语 9:泰语 10:马来语 11:印尼语 12:俄语 13:法语 14:意大利语 15:西班牙语 16:德语 17:葡萄牙语 18:土耳其语;不设置或设置的不合法则显示中台设置的默认语言。
 
 +(void)setLanguage:(int)languageType;
 
@@ -44,7 +49,7 @@ NS_ASSUME_NONNULL_BEGIN
 +(void)presentMessenger;
 
 /// 打开信使专属客服
-/// - Parameter groupId: 专属客服的groupId
+/// - Parameter groupId: 专属客服的groupId ，必填
 +(void)presentMessengerWithgroupId:(NSString*)groupId;
 
 /// 用Bytetrack提供的浏览器打开链接
