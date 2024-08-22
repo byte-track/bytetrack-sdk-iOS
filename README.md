@@ -102,7 +102,7 @@ pod repo update
 ## 3. 在M系列芯片Xcode模拟器运行报错问题以及解决方案
 &nbsp;&nbsp;修改Build Settings -> Excluded Architectures选项，添加Any iOS Simulator SDK选项，并设置为arm64，如下图：
 
-![]()
+![](https://github.com/byte-track/bytetrack-sdk-iOS/blob/master/pictures/79DFE7FA-810A-4529-B2C6-FF403FD9559F.png)
 # 技术支持
 &nbsp;&nbsp;除此之外，我们通过[使用指南](https://docs.bytrack.com/8CTFE8cF/developers/wikidetail?articleId=Y9LNgap5ZZ&usageCategoryId=444)，为您提供了更加详细的使用说明。
 
