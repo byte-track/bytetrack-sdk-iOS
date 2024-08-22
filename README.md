@@ -63,13 +63,18 @@ pod repo update
  ```
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    [Bytetrack initMessengerWithApiKey:<Your iOS API Key> forAppId:<Your App ID> withPrivateServerURL:<Your ServerURL>];//初始化SDK
+        [Bytetrack initMessengerWithApiKey:<Your iOS API Key> forAppId:<Your App ID> withUserId:nil withPhone:nil withEmail:nil withLanguage:nil withgroupId:nil withPrivateServerURL:nil];//初始化SDK
 
     return YES;
 }
 ```
 - `Your App ID:`表示您的商户在ByTeTrack系统中的应用ID；
 - `Your iOS API Key:`表示您的商户在ByteTrack系统中的应用密钥；
+- `userId:`用户业务id，不设置则填nil，后面也可以单独设置；
+- `phone:`用户手机号，不设置则填nil，后面也可以单独设置；
+- `email:`用户邮箱，不设置则填nil，后面也可以单独设置；
+- `languageType:`信使初始化语言，NSNumber类型，不设置则填nil，后面也可以单独设置；
+- `groupId:`您的groupId，即专属客服Id,不设置则填nil；
 - `Your ServerURL:`选填，私有化部署地址，如果您不是私有化部署，请填nil；
 **tips:** 此时，您就可以正常使用ByteTrack的功能。
 <br/>
@@ -94,6 +99,10 @@ pod repo update
 
 ![](https://github.com/byte-track/picture/blob/master/pictures/L1VzZXJzL3N1bmxpYW5nL0xpYnJhcnkvQ29udGFpbmVycy81WlNMMkNKVTJULmNvbS5kaW5ndGFsay5tYWMvRGF0YS9MaWJyYXJ5L0FwcGxpY2F0aW9uIFN1cHBvcnQvRGluZ1RhbGtNYWMvMjYxMTA3NTY1X3YyL0ltYWdlRmlsZXMvMTY2MzMwODM5OTcxM182RkE5Q0Y3NS03Q0JBLTRENzEtQjI1MC0zNTYzMzM3RDU1M0IucG5n.png)
 
+## 3. 在M系列芯片Xcode模拟器运行报错问题以及解决方案
+&nbsp;&nbsp;修改Build Settings -> Excluded Architectures选项，添加Any iOS Simulator SDK选项，并设置为arm64，如下图：
+
+![]()
 # 技术支持
 &nbsp;&nbsp;除此之外，我们通过[使用指南](https://docs.bytrack.com/8CTFE8cF/developers/wikidetail?articleId=Y9LNgap5ZZ&usageCategoryId=444)，为您提供了更加详细的使用说明。
 
