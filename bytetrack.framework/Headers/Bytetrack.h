@@ -15,10 +15,10 @@ NS_ASSUME_NONNULL_BEGIN
 /// 初始化信使SDK
 /// @param apiKey 您的apiKey
 /// @param appId  您的appId
-/// @param userId 用户业务id，不设置则填nil，后面可以单独设置
-/// @param phone  用户手机号，不设置则填nil，后面可以单独设置
-/// @param email  用户邮箱，不设置则填nil，后面可以单独设置
-/// @param languageType 信使初始化语言，NSNumber类型，不设置则填nil，后面可以单独设置
+/// @param userId 用户业务id，不设置则填nil，后面也可以单独设置
+/// @param phone  用户手机号，不设置则填nil，后面也可以单独设置
+/// @param email  用户邮箱，不设置则填nil，后面也可以单独设置
+/// @param languageType 信使初始化语言，NSNumber类型，不设置则填nil，后面也可以单独设置
 /// @param groupId 您的groupId，即专属客服Id,不设置则填nil
 /// @param url 选填，私有化部署地址，如果不是私有化部署，填nil
 + (void)initMessengerWithApiKey:(NSString *)apiKey forAppId:(NSString *)appId withUserId:(NSString *_Nullable)userId withPhone:(NSString *_Nullable)phone withEmail:(NSString *_Nullable)email withLanguage:(NSNumber *_Nullable)languageType withgroupId:(NSString*_Nullable)groupId withPrivateServerURL:(NSString *_Nullable)url;
@@ -58,6 +58,17 @@ NS_ASSUME_NONNULL_BEGIN
 
 //设置启动图标是否一直可见,默认否
 + (void)setLauncherVisible:(BOOL)visible;
+
+//开始客户洞察
+/**
+ /// @param groupId 用户groupId，即专属客服Id,不设置则填nil
+ /// @param userId 用户业务id，不设置则填nil
+ /// @param phone  用户手机号，不设置则填nil
+ /// @param email  用户邮箱，不设置则填nil，
+ /// @param insightCode 客户洞察接口授权码，必填
+ */
++ (void)startCustomerInsightWithgroupId:(NSString *_Nullable)groupId withUserId:(NSString *_Nullable)userId withPhone:(NSString *_Nullable)phone withEmail:(NSString *_Nullable)email withInsightCode:(NSString *)insightCode;
+
 
 //退出登录
 + (void)logout;
